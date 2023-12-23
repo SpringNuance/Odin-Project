@@ -1,0 +1,156 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: beige;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+}
+
+.option-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-right: 80px;
+}
+
+.unicolorText {
+   font-size: 27px;
+   font-style: italic;
+   margin-bottom: 5px !important;
+}
+
+.option-box > * {
+  margin: 10px 0 10px 0;
+}
+
+header {
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  flex-direction: column;
+}
+
+header > * {
+  font-size: 30px;
+  margin: 12px 0 12px 0;
+}
+
+
+.container {
+    display: grid;
+    height: 500px;
+    width: 500px;
+    border-style: solid;
+    border-width: 1;
+    box-shadow: 7px 7px 20px 3px #222;
+  }
+
+  .container div {
+    background-color:white;
+  }
+
+  .slidecontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0px;
+    width: 200%;
+  }
+
+  .slidecontainer p {
+    font-style: italic;
+    font-size: 25px;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 50%;
+    height: 25px;
+    background: #d3d3d3;
+    border-style: solid;
+    border-width: 1;
+    border-radius: 25px;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 2;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 40px;
+    height: 40px;
+    background: #000000;
+    cursor: pointer;
+  }
+
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+
+  #colorPicker {
+    width: 250px;
+    height: 40px;
+    
+  }
+
+  #colorPicker:hover {
+    box-shadow: 3px 3px 15px 3px #222
+  }
+
+ .multicolor {
+  width: 250px;
+  height: 40px;
+  font-size: 25px;
+  border-radius: 25px;
+  font-style: italic;
+  background-color: white;
+ }
+
+.multicolor:hover {
+  box-shadow: 3px 3px 15px 3px #222
+}
+
+ .erase {
+   width: 250px;
+   height: 40px;
+   font-size: 25px;
+   border-radius: 25px;
+   font-style: italic;
+   background-color: white;
+ }
+
+
+ .erase:hover {
+  box-shadow: 3px 3px 15px 3px #222
+}
+
+ .clearance {
+  width: 250px;
+  height: 40px;
+  font-size: 25px;
+  font-style: italic;
+  border-radius: 25px;
+   background-color: white;
+ }
+
+
+ .clearance:hover {
+   
+  box-shadow: 3px 3px 15px 3px #222
+}

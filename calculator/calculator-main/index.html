@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src = "./app.js" defer></script>
+</head>
+<body>
+    <div class = "app"> 
+    <header>
+        <div>Online Calculator</div>
+        <div>Spring Nuance © 2021</div>
+    </header>
+        <div class="calculator">
+            
+            <div class = "buttons">
+                <div class = "display">
+                    <div id = "first"></div>
+                    <div id = "second"></div>
+                    <div id = "result">0</div>
+                </div>
+                <!---->
+                <div id = "clear" onclick = "process('c')"><button>AC</button></div>
+                <div id = "del" onclick = "process('d')"><button>⌫</button></div>
+                <div id = "pm" onclick = "process('pm')"><button class = "math">±</button></div>
+                <div id = "fact" onclick = "process('!')"><button class = "math">!</button></div>
+                <div id = "mod" onclick = "process('%')"><button class = "math">%</button></div>
+                <!---->
+                <div id = "seven" onclick = "process('7')"><button>7</button></div>
+                <div id = "eight" onclick = "process('8')"><button>8</button></div>
+                <div id = "nine" onclick = "process('9')"><button>9</button></div>              
+                <div id = "power" onclick = "process('^')"><button class = "math">^</button></div>
+                <div id = "root" onclick = "process('√')"><button class = "math">√</button></div>
+                <!---->
+                <div id = "four" onclick = "process('4')"><button>4</button></div>
+                <div id = "five" onclick = "process('5')"><button>5</button></div>
+                <div id = "six" onclick = "process('6')"><button>6</button></div>
+                <div id = "multi" onclick = "process('*')"><button class = "math">*</button></div>
+                <div id = "frac" onclick = "process('/')"><button class = "math">/</button></div>
+                <!---->
+                <div id = "one" onclick = "process('1')"><button >1</button></div>
+                <div id = "two" onclick = "process('2')"><button>2</button></div>
+                <div id = "three" onclick = "process('3')"><button>3</button></div>
+                <div id = "add" onclick = "process('+')"><button class = "math">+</button></div>
+                <div id = "sub" onclick = "process('-')"><button class = "math">-</button></div>
+                <!---->
+                <div id = "pi" onclick = "process('π')"><button>π</button></div>
+                <div id = "zero" onclick = "process('0')"><button>0</button></div>
+                <div id = "point" onclick = "process('.')"><button>.</button></div>
+                <div id = "ans" onclick = "process('a')"><button class = "math">Ans</button></div>
+                <div id = "equal" onclick = "process('=')"><button class = "math">=</button></div>
+            </div>
+    </div>
+</div>
+  
+    
+</body>
+</html>

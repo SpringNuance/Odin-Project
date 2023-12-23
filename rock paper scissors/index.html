@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hammer-Paper-Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src = "./app.js" defer></script>
+  </head>
+  <body>
+      <header>
+        <h1>Hammer Paper Scissors Game!</h1>
+        <h2>In this game, you will play against the computer</h2>
+        <h2>Whoever wins the first 5 matches will win the dual</h2>
+      </header>
+      <div class= "center">
+        <button class = "button" id = "hammer"><img id = "hammer" src="./images/hammer.png"/><h3 id = "hammer" >Hammer</h3></button>
+        <button class = "button" id = "paper"><img id = "paper" src="./images/paper.png"/><h3 id = "paper">Paper</h3></button>
+        <button class = "button" id = "scissors"><img id = "scissors" src="./images/scissors.png"/><h3 id = "scissors">Scissors</h3></button>
+      </div>
+<!--
+     <div class="selections">
+        <button class="selection" data-selection="rock">✊</button>
+        <button class="selection" data-selection="paper">✋</button>
+        <button class="selection" data-selection="scissors">✌</button>
+      </div>
+-->
+      <div class="scores">
+        <div>YOU<span id= "score1">0</span></div>
+        <div>BOT<span id= "score2">0</span></div>
+      </div>
+      <div><p class="report"></p></div>
+      <div><h3 class="result"></h3></div>
+      <div onclick = "replay()" id="replay">
+        <button>Replay!</button>
+      </div>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edge-a-sketch</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src = "./app.js" defer></script>
+</head>
+<body>
+        
+        <div class="main-box">
+            <div class = "option-box">
+                <header>
+                    <div>Edge-A-Sketch App</div>
+                    <div>Hover over the grid to start drawing!</div>
+                </header>
+                <p class = "unicolorText"> Unicolor Mode </p>
+                <div class = "colorPicker">
+                    <input type="color" id="colorPicker" name="colorPicker"
+                           value="#000000">
+                </div>
+                <button class = "multicolor" onclick = "multiColor()"> Multicolor Mode </button>
+                <button class = "erase" onclick = "erase()"> Erase </button>
+                <button class = "clearance" onclick = "clearance()"> Clear </button>
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="30" class="slider" id = "myRange">
+                    <p>Canvas size: <span id="demo"></span></p>
+                </div>
+            </div>
+
+            <div class = "canvas"><div class="container"></div></div>
+        </div>
+  
+    
+</body>
+</html>

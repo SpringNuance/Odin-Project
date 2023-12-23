@@ -1,0 +1,104 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:beige;
+}
+
+.results {
+    display: flex;
+    flex-direction: row;
+}
+
+.results div {
+    padding: 20px;
+}
+
+#replay {
+    visibility: hidden;
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 35%;
+}
+
+.button {
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+}
+
+img {
+    margin: 15px;
+}
+
+.button:hover {
+    color: brown;
+    box-shadow: 2px 2px 5px 5px rgb(192, 153, 153)
+}
+
+.button:disabled {
+    text-align: center;
+    text-decoration: none !important;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    opacity: 0.5;
+    box-shadow: none;
+    color: black;
+}
+
+span {
+    margin: 10px;
+}
+
+.scores {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    font-size: 50px;
+    font-weight: bold;
+    width: 27%;
+}
+
+header {
+    margin: auto;
+    font-size: 20px;
+    width: 40%;
+}
+
+.scores span {
+    margin: 30px;
+}
+
+.scores div {
+    margin: 30px;
+}
+
+.report {
+    margin: auto;
+    font-size: 25px;
+    width: 20%;
+}
+.result {
+    margin: auto;
+    font-size: 30px;
+    width: 40%;
+    padding: 20px;
+}
+
+.result h3 {
+    font-size: 30px;
+    margin: 10px;
+}
+
+#replay {
+    margin: auto;
+    width: 10%;
+}
+
+#replay button {
+    font-size: 30px;
+}
